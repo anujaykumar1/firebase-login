@@ -9,6 +9,7 @@ import {
 import Login from './components/login';
 import SignUp from './components/signup';
 import ForgotPassword from './components/forgot-password';
+import AuthContextProvider from './components/auth-context';
 
 const router = createBrowserRouter([
   {
@@ -31,7 +32,9 @@ const router = createBrowserRouter([
 function App() {
   return (
     <div className="App">
+      <AuthContextProvider>
      <RouterProvider router={router} />
+     </AuthContextProvider>
     </div>
   );
 }
