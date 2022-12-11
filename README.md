@@ -8,4 +8,4 @@
 8) kafka consumer
 
 
-https://trello.com/invite/b/o5VYWlAz/ATTI2d7ee33dc89d22763cb30d7951ff08128CFE2B58/firebase-login
+https://trello.com/b/o5VYWlAz
